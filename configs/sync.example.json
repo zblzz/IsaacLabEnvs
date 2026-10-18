@@ -1,0 +1,5 @@
+{
+  "host": "research-server",
+  "remote_root": "/path/to/project/outputs",
+  "local_root": "../outputs"
+}

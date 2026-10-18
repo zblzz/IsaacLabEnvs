@@ -1,0 +1,23 @@
+# An offline, asset-free physics example. All lengths are metres.
+num_envs: 4
+physics_dt: 0.005
+decimation: 4
+spacing: 2.0
+camera_eye: [1.4, 1.4, 1.1]
+camera_target: [0, 0, 0.3]
+assets:
+  floor:
+    kind: static
+    size: [1.5, 1.5, 0.1]
+    position: [0, 0, -0.05]
+  cube:
+    kind: rigid
+    size: [0.1, 0.1, 0.1]
+    position: [0, 0, 0.6]
+    mass: 0.1
+    friction: 0.8
+    color: [0.9, 0.4, 0.1]
+contacts:
+  cube:
+    entity: cube
+    bodies: ""

@@ -1,0 +1,12 @@
+shader: omnipbr
+color:
+- 0.32
+- 0.33
+- 0.34
+roughness: 0.32
+metallic: 0.7
+roughness_texture: ../scenes/materials/blue_metal_plate/blue_metal_plate_rough_1k.jpg
+roughness_texture_weight: 0.35
+texture_scale:
+- 2.5
+- 2.5

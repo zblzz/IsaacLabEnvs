@@ -1,0 +1,7 @@
+.cache/
+outputs/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+configs/sync.local.json

@@ -1,0 +1,27 @@
+{
+  "upstream": "https://github.com/ros-industrial/universal_robot",
+  "revision": "39ad110d8f2e8f66856a201cca88aa7a7025e3eb",
+  "original": "ur_description/urdf/ur5.xacro",
+  "modifications": [
+    "Expanded upstream UR5 xacro with its default UR5 parameter YAMLs.",
+    "Rewrote package://ur_description mesh references to file-relative paths; no physical parameter changes."
+  ],
+  "sha256": {
+    "LICENSE": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+    "meshes/ur5/collision/base.stl": "1b9d4941ffba8e771ca119ab1c34d2ce7e393273955e14c6f6b56b75875923af",
+    "meshes/ur5/collision/forearm.stl": "8e79aa80a532494ba5320c30b40363ff63d228e3d59e2904703dca341dcba2ac",
+    "meshes/ur5/collision/shoulder.stl": "1d62e23a8c3ff9e6334fb157c805e6202037bcfca65bc6a36c5c9ae866751b3b",
+    "meshes/ur5/collision/upperarm.stl": "55c11ac0ad1e144f230849b2033532e8b140b2e818ea497296d08dfb88757440",
+    "meshes/ur5/collision/wrist1.stl": "0a1fd12150140efdee91650dcb4c2d0443065551a9207a2d2dbde58ff1fb4eb7",
+    "meshes/ur5/collision/wrist2.stl": "c1d9f7843366068cb331f3f5c43fa716d3eceeb8c80216eccbbc878905dab123",
+    "meshes/ur5/collision/wrist3.stl": "cf7220397b56f1d3047be9465eea1181d471b40fc82728052e31c97588585b4b",
+    "meshes/ur5/visual/base.dae": "d76755b25c45002b4167cd1a6bb4cf501567627ae0ed9b7e2d94b421d417712d",
+    "meshes/ur5/visual/forearm.dae": "a163079ff71fa2a5cdea9a642a1ec31007b9b6c29ce14d106e7cb088896b4c8b",
+    "meshes/ur5/visual/shoulder.dae": "fce5dd86671eeb56ddc821f138ad5fd45e03a5c7d31bdf59f3b46f193e1c9455",
+    "meshes/ur5/visual/upperarm.dae": "bcfe8208ad1cbeada65166078d6b883413e9aa4e05fa891d1d80d780aecf4fd7",
+    "meshes/ur5/visual/wrist1.dae": "0eeddca348d2e2db0d834298a58a3ea09b7aafe59051f1f552d6114d92de5acd",
+    "meshes/ur5/visual/wrist2.dae": "9be5d84e57e63adeccd9110cc87d0e457cabb13cdd4603016f9a22233f1dc34e",
+    "meshes/ur5/visual/wrist3.dae": "7630f9d288ecbbf24d9def977521e766ccedd6b4e89334253c818a049b462e37",
+    "ur5.urdf": "b6b8bcec970e8d9c83030384f27a626d48a60db55d42522c5185e03cade2b1fd"
+  }
+}

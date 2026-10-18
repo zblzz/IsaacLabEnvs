@@ -1,0 +1,50 @@
+num_envs: 1
+physics_dt: 0.005
+decimation: 4
+cache: ../../.cache/assets
+camera_eye:
+- 1.9
+- 1.6
+- 1.7
+camera_target:
+- 0
+- 0
+- 0.95
+resolution:
+- 960
+- 720
+assets:
+  table:
+    kind: static
+    source: ../../assets/scenes/table/table.usda
+  cube:
+    kind: rigid
+    source: ../../assets/objects/cube/cube.usda
+    position:
+    - 0.3
+    - -0.22
+    - 1.0
+  cylinder:
+    kind: rigid
+    source: ../../assets/objects/cylinder/cylinder.usda
+    position:
+    - 0.3
+    - 0
+    - 1.0
+  sphere:
+    kind: rigid
+    source: ../../assets/objects/sphere/sphere.usda
+    position:
+    - 0.3
+    - 0.22
+    - 1.0
+contacts:
+  cube:
+    entity: cube
+    bodies: ''
+  cylinder:
+    entity: cylinder
+    bodies: ''
+  sphere:
+    entity: sphere
+    bodies: ''

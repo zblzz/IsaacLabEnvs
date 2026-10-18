@@ -1,0 +1,11 @@
+{
+  "source": "https://polyhaven.com/a/photo_studio_01",
+  "download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/photo_studio_01_2k.hdr",
+  "author": "Sergej Majboroda",
+  "license": "CC0-1.0",
+  "modifications": [],
+  "sha256": {
+    "LICENSE": "38884e863e1f07e3ccd7dfd0f5b648d8c66d763ab1d9aa6f7bbdacf26648000b",
+    "photo_studio_01_2k.hdr": "b6178cf04ea2ac9390b8794d3088a04c0254905f335f5f30d2b582c57c40f387"
+  }
+}

@@ -1,0 +1,29 @@
+kind: articulation
+source: ../../../assets/robots/hand/allegro/allegro_hand_right.urdf
+merge_fixed_joints: true
+mimic: preserve
+joints:
+  joint_0_0: 0.0
+  joint_1_0: 0.0
+  joint_2_0: 0.0
+  joint_3_0: 0.0
+  joint_4_0: 0.0
+  joint_5_0: 0.0
+  joint_6_0: 0.0
+  joint_7_0: 0.0
+  joint_8_0: 0.0
+  joint_9_0: 0.0
+  joint_10_0: 0.0
+  joint_11_0: 0.0
+  joint_12_0: 0.263
+  joint_13_0: 0.0
+  joint_14_0: 0.0
+  joint_15_0: 0.0
+drives:
+  fingers:
+    joints:
+    - .*
+    stiffness: 10.0
+    damping: 0.5
+position_iterations: 8
+velocity_iterations: 2

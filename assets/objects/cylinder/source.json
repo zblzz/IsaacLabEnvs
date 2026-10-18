@@ -1,0 +1,11 @@
+{
+  "upstream": "procedurally authored for IsaacLabEnvs",
+  "revision": null,
+  "original": null,
+  "modifications": [
+    "SI units; 0.1 kg, analytic uniform-density inertia"
+  ],
+  "sha256": {
+    "cylinder.usda": "2f16ccfd6dbaf56380ecca01d6f48639f202073f3e4bf8364313d04c2e80d7c2"
+  }
+}

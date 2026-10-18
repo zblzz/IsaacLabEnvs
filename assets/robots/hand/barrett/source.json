@@ -1,0 +1,24 @@
+{
+  "upstream": "https://github.com/dexsuite/dex-urdf",
+  "revision": "7304c7fb59214dab870eca02cf26f76e944e12df",
+  "original": "robots/hands/barrett_hand/bhand_model.urdf",
+  "modifications": [],
+  "sha256": {
+    "LICENSE": "fa608e3dfd66bfd5bb1bfd3827480c8b950231ddccfd9235564cbf2845828612",
+    "bhand_model.urdf": "13cbfdb7715e54f4e10f9e1f2c7620db6c5f6b2b05adf9a16cdd795cda620fc1",
+    "meshes/collision/base_link_cylinder.obj": "49c5e25eaa9d308e0eecc3275d560670ed005029ba0f3f2a230a7b7640586ae2",
+    "meshes/collision/prox_link_cylinder.obj": "bf699a29e783c35f3eb095cec1d1ae1361e89139307f6aa78bd8b69e59b25c52",
+    "meshes/visual/base_link.glb": "adf5a24b9beb12f80d6150be1d3997b151590e0cf2d427c875afa56bd1127c45",
+    "meshes/visual/base_link.mtl": "95e7d51a8fb0731c4bd49f990b002026c6df86b56b5d3f76edf24652694069f1",
+    "meshes/visual/base_link.obj": "e963f3f9570b1ec41c1084c5d5725994a4f5bc1a8be8c07fe3b333892bef66fa",
+    "meshes/visual/dist_link.glb": "023c444c1acec07c0eed03ef9e86c9e07c46b143fb224dd9fb29083948d3e287",
+    "meshes/visual/dist_link.mtl": "95e7d51a8fb0731c4bd49f990b002026c6df86b56b5d3f76edf24652694069f1",
+    "meshes/visual/dist_link.obj": "7de4ace9a09910bc42578c456871f48df7e2916ce6cc2fef3cfeb918f1e54a39",
+    "meshes/visual/med_link.glb": "9f8c88b063da027430be4e5bef3a35337f1d8be6e7ead93b5f98b45f8cfb8a12",
+    "meshes/visual/med_link.mtl": "ade8fc6d6b9d7aadb924f1a2ac4198b3727714eeaac8835266087ca95b73e464",
+    "meshes/visual/med_link.obj": "066c870b44c34dfde43a855fd1574882b855cbcb93dfda2a1a6753d543995530",
+    "meshes/visual/prox_link.glb": "6c9faae8c11ea6e302539fbe577bd281dd0bed44903e0df637fa161877f3ff0b",
+    "meshes/visual/prox_link.mtl": "ade8fc6d6b9d7aadb924f1a2ac4198b3727714eeaac8835266087ca95b73e464",
+    "meshes/visual/prox_link.obj": "72797ef02e2183e1499ad046835b3c1ffcc9f7fdb309bb523c30ae5d4e7dfc3e"
+  }
+}

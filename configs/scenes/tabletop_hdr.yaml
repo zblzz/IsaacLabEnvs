@@ -1,0 +1,53 @@
+ref: tabletop.yaml
+camera_eye:
+- 1.55
+- 1.65
+- 2.05
+camera_target:
+- -0.05
+- 0
+- 1.18
+resolution:
+- 1600
+- 1200
+camera_focal_length: 45.0
+lighting:
+  ref: ../lighting/studio_hdr.yaml
+renderer:
+  ref: ../rendering/path_tracing.yaml
+assets:
+  table:
+    visual_material:
+      ref: ../../assets/materials/brushed_metal.yaml
+  cube:
+    visual_material:
+      ref: ../../assets/materials/plastic.yaml
+      color:
+      - 0.32
+      - 0.12
+      - 0.045
+  cylinder:
+    visual_material:
+      ref: ../../assets/materials/aluminum.yaml
+  sphere:
+    visual_material:
+      ref: ../../assets/materials/plastic.yaml
+      color:
+      - 0.07
+      - 0.1
+      - 0.085
+      roughness: 0.55
+  backdrop:
+    kind: static
+    shared: true
+    size:
+    - 200
+    - 200
+    - 0.02
+    position:
+    - 0
+    - 0
+    - -0.03
+    collision_enabled: false
+    visual_material:
+      ref: ../../assets/materials/matte_gray.yaml

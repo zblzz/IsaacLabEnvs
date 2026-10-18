@@ -1,0 +1,32 @@
+ref: tabletop.yaml
+camera_eye:
+- 1.4
+- 1.5
+- 1.75
+camera_target:
+- -0.1
+- 0
+- 1.15
+resolution:
+- 1600
+- 1200
+lighting:
+  ref: ../lighting/studio.yaml
+assets:
+  table:
+    visual_material:
+      ref: ../../assets/materials/studio_table.yaml
+  backdrop:
+    kind: static
+    shared: true
+    size:
+    - 200
+    - 200
+    - 0.02
+    position:
+    - 0
+    - 0
+    - -0.03
+    collision_enabled: false
+    visual_material:
+      ref: ../../assets/materials/studio_floor.yaml

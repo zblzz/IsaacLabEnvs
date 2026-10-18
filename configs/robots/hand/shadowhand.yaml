@@ -1,0 +1,37 @@
+kind: articulation
+source: ../../../assets/robots/hand/shadowhand/shadow_hand_right.urdf
+merge_fixed_joints: true
+mimic: preserve
+joints:
+  WRJ2: 0.0
+  WRJ1: 0.0
+  FFJ4: 0.0
+  FFJ3: 0.0
+  FFJ2: 0.0
+  FFJ1: 0.0
+  MFJ4: 0.0
+  MFJ3: 0.0
+  MFJ2: 0.0
+  MFJ1: 0.0
+  RFJ4: 0.0
+  RFJ3: 0.0
+  RFJ2: 0.0
+  RFJ1: 0.0
+  LFJ5: 0.0
+  LFJ4: 0.0
+  LFJ3: 0.0
+  LFJ2: 0.0
+  LFJ1: 0.0
+  THJ5: 0.0
+  THJ4: 0.0
+  THJ3: 0.0
+  THJ2: 0.0
+  THJ1: 0.0
+drives:
+  fingers:
+    joints:
+    - .*
+    stiffness: 10.0
+    damping: 0.5
+position_iterations: 8
+velocity_iterations: 2

@@ -1,0 +1,22 @@
+kind: articulation
+source: ../../../assets/robots/arm/franka/fr3.urdf
+merge_fixed_joints: true
+mimic: preserve
+joints:
+  fr3_joint1: 0
+  fr3_joint2: -0.785
+  fr3_joint3: 0
+  fr3_joint4: -2.356
+  fr3_joint5: 0
+  fr3_joint6: 1.571
+  fr3_joint7: 0.785
+  fr3_finger_joint1: 0.03
+  fr3_finger_joint2: 0.03
+drives:
+  all:
+    joints:
+    - .*
+    stiffness: 100.0
+    damping: 10.0
+position_iterations: 8
+velocity_iterations: 2

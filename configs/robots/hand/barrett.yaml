@@ -1,0 +1,21 @@
+kind: articulation
+source: ../../../assets/robots/hand/barrett/bhand_model.urdf
+merge_fixed_joints: true
+mimic: preserve
+joints:
+  finger_1_prox_joint: 0.0
+  finger_1_med_joint: 0.0
+  finger_1_dist_joint: 0.0
+  finger_2_prox_joint: 0.0
+  finger_2_med_joint: 0.0
+  finger_2_dist_joint: 0.0
+  finger_3_med_joint: 0.0
+  finger_3_dist_joint: 0.0
+drives:
+  fingers:
+    joints:
+    - .*
+    stiffness: 10.0
+    damping: 0.5
+position_iterations: 8
+velocity_iterations: 2

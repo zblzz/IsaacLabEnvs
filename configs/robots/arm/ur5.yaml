@@ -1,0 +1,19 @@
+kind: articulation
+source: ../../../assets/robots/arm/ur5/ur5.urdf
+merge_fixed_joints: true
+mimic: preserve
+joints:
+  shoulder_pan_joint: 0.0
+  shoulder_lift_joint: -1.57
+  elbow_joint: 1.57
+  wrist_1_joint: -1.57
+  wrist_2_joint: 0.0
+  wrist_3_joint: 0.0
+drives:
+  all:
+    joints:
+    - .*
+    stiffness: 100.0
+    damping: 10.0
+position_iterations: 8
+velocity_iterations: 2

@@ -1,0 +1,7 @@
+shader: omnipbr
+color:
+- 0.3
+- 0.3
+- 0.3
+roughness: 0.8
+metallic: 0

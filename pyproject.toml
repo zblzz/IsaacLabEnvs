@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isaaclab-envs"
+version = "0.1.0"
+description = "Task-independent vector physics scenes for Isaac Lab"
+requires-python = ">=3.11"
+dependencies = ["PyYAML", "torch", "numpy", "trimesh", "scipy"]
+
+[project.optional-dependencies]
+video = ["imageio>=2.37,<3", "imageio-ffmpeg>=0.6,<0.7"]
+
+[tool.setuptools]
+packages = ["isaaclab_envs", "isaaclab_envs.isaaclab"]
+package-dir = {isaaclab_envs = "env"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

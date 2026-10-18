@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "allegro",
+      "category": "robots/hand",
+      "variant": "right hand",
+      "source": "robots/hand/allegro/allegro_hand_right.urdf",
+      "preset": "configs/assets/allegro.yaml",
+      "expected_joints": 16
+    },
+    {
+      "id": "barrett",
+      "category": "robots/hand",
+      "variant": "8-joint independent URDF",
+      "source": "robots/hand/barrett/bhand_model.urdf",
+      "preset": "configs/assets/barrett.yaml",
+      "expected_joints": 8
+    },
+    {
+      "id": "shadowhand",
+      "category": "robots/hand",
+      "variant": "right hand with wrist, independent finger joints",
+      "source": "robots/hand/shadowhand/shadow_hand_right.urdf",
+      "preset": "configs/assets/shadowhand.yaml",
+      "expected_joints": 24
+    },
+    {
+      "id": "franka",
+      "category": "robots/arm",
+      "variant": "FR3 with Franka Hand",
+      "source": "robots/arm/franka/fr3.urdf",
+      "preset": "configs/assets/franka.yaml",
+      "expected_joints": 9
+    },
+    {
+      "id": "ur5",
+      "category": "robots/arm",
+      "variant": "UR5, not UR5e",
+      "source": "robots/arm/ur5/ur5.urdf",
+      "preset": "configs/assets/ur5.yaml",
+      "expected_joints": 6
+    },
+    {
+      "id": "g1",
+      "category": "robots/humanoid",
+      "variant": "G1 29 DOF, rubber hands",
+      "source": "robots/humanoid/g1/g1_29dof.urdf",
+      "preset": "configs/assets/g1.yaml",
+      "expected_joints": 29
+    },
+    {
+      "id": "cube",
+      "category": "objects",
+      "source": "objects/cube/cube.usda",
+      "preset": "configs/assets/tabletop.yaml"
+    },
+    {
+      "id": "cylinder",
+      "category": "objects",
+      "source": "objects/cylinder/cylinder.usda",
+      "preset": "configs/assets/tabletop.yaml"
+    },
+    {
+      "id": "sphere",
+      "category": "objects",
+      "source": "objects/sphere/sphere.usda",
+      "preset": "configs/assets/tabletop.yaml"
+    },
+    {
+      "id": "table",
+      "category": "scenes",
+      "source": "scenes/table/table.usda",
+      "preset": "configs/assets/tabletop.yaml"
+    },
+    {
+      "id": "photo_studio_01",
+      "category": "scenes/lighting",
+      "source": "scenes/lighting/photo_studio_01/photo_studio_01_2k.hdr",
+      "preset": "configs/assets/franka_hdr.yaml"
+    },
+    {
+      "id": "blue_metal_plate_roughness",
+      "category": "scenes/materials",
+      "source": "scenes/materials/blue_metal_plate/blue_metal_plate_rough_1k.jpg",
+      "preset": "configs/assets/franka_hdr.yaml"
+    }
+  ]
+}

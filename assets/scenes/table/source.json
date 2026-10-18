@@ -1,0 +1,11 @@
+{
+  "upstream": "procedurally authored for IsaacLabEnvs",
+  "revision": null,
+  "original": null,
+  "modifications": [
+    "Static table; 1.2 x 0.8 m, top at z=0.75 m; five box colliders"
+  ],
+  "sha256": {
+    "table.usda": "8700bb3a9b57acd00d6c1409d6a97c81ca01e7cbdf5672128909702d3afa243a"
+  }
+}

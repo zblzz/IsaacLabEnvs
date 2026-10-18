@@ -1,0 +1,10 @@
+ref: ../scenes/tabletop.yaml
+assets:
+  robot:
+    ref: ../robots/hand/allegro.yaml
+    position:
+    - -0.22
+    - 0
+    - 1.05
+    fixed_base: true
+    gravity: false

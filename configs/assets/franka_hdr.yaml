@@ -1,0 +1,10 @@
+ref: ../scenes/tabletop_hdr.yaml
+assets:
+  robot:
+    ref: ../robots/arm/franka.yaml
+    position:
+    - -0.35
+    - 0
+    - 0.75
+    fixed_base: true
+    gravity: false

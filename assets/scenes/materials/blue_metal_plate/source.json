@@ -1,0 +1,12 @@
+{
+  "source": "https://polyhaven.com/a/blue_metal_plate",
+  "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_metal_plate/blue_metal_plate_rough_1k.jpg",
+  "author": "Rob Tuytel",
+  "license": "CC0-1.0",
+  "modifications": [],
+  "usage": "Roughness only, blended with the preset constant; not a reconstruction of the source metal plate.",
+  "sha256": {
+    "LICENSE": "6c527366221a6d2480c2272350b299701efe4fcac2830f8a5d594b6329dc479f",
+    "blue_metal_plate_rough_1k.jpg": "37168cf57144db28dd0743dab47fbebc09147fac919d5e2b5610b069c0b13a46"
+  }
+}

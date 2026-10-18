@@ -1,0 +1,5 @@
+mode: path_tracing
+samples_per_frame: 16
+total_samples: 128
+max_bounces: 6
+auto_exposure: false
